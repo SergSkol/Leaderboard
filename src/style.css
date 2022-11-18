@@ -1,6 +1,53 @@
 body {
-  max-width: 500px;
+  max-width: 512px;
   margin: 0 auto;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: lightgray;
+  background-color: #fff;
+}
+.add-form li {
+  list-style-type: none;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scores-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scores-title {
+  height: 32px;
+  margin: 0 auto;
+  padding-right: 32px;
+}
+
+#scores-refresh-button {
+  height: 36px;
+}
+
+.scores-list {
+  border: 4px solid #3e3e3e;
+  overflow-y: scroll;
+}
+
+.scores-list li {
+  list-style-type: none;
+}
+
+.scores-list-items {
+  margin: 0 auto;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.scores-list-item:nth-child(even) {
+  background-color: #807c7c;
+}
+
+.form-title {
+  height: 32px;
+  margin: 0 auto;
 }

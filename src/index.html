@@ -10,19 +10,44 @@
   </head>
   <body>
     <section class="main">
-        <header class="header">
-            <h3 class="header-descr">Leaderboard</h3>
-        </header>
-        <section class="container">
-            <div class="list">
-
-            </div>
-            <form class="add-form">
-
-            </form>
-        </section>
-        <footer class="footer">
-        </footer>
+      <header class="header">
+          <h1 class="header-descr">Leaderboard</h3>
+      </header>
+      <section class="scores">
+        <div class="scores-container">
+          <div class="scores-header">
+            <h2 class="scores-title">Recent scores</h2>
+            <button type="submit" name="refresh-button" id="refresh-button">Refresh</button>
+          </div>
+          <div class="scores-list">
+            <ul class="scores-list-items">
+              <li class="scores-list-item">Name 100</li>
+              <li class="scores-list-item">Name 20</li>
+              <li class="scores-list-item">Name 50</li>
+              <li class="scores-list-item">Name 77</li>
+              <li class="scores-list-item">Name 42</li>
+            </ul>
+          </div>
+        </div>
+        <form class="add-form">
+          <h2 class="form-title">Add your score</h2>
+          <ul>
+            <li>
+              <input type="text" name="name" id="name" placeholder="Your name" />
+            </li>
+            <li>
+              <input type="text" name="score" id="score" placeholder="Your score" />
+            </li>
+            <li>
+              <button type="submit" name="submit-button" id="submit-button">
+                Submit
+              </button>
+            </li>
+          </ul>
+        </form>
+      </section>
+      <footer class="footer">
+      </footer>
     </section>
     <script type="module" src="./index.js"></script>
   </body>
