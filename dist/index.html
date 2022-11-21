@@ -12,7 +12,18 @@
     <section class="main">
       <header class="header">
           <h1 class="header-descr">Leaderboard</h3>
+          <a href="#" class="header-settings-open fa-solid fa-gear"></a>
       </header>
+
+      <div class="popup-settings hide">
+        <a href="#" class="popup-settings-close fa-solid fa-xmark"></a>
+        <div header-settings-inputs>
+          <label class="header-settings-input-label" for="newId">Switch to API key</label>
+          <input type="text" id="newId"/>
+          <a href="#" class="popup-settings-save fa-solid fa-check"></a>
+        </div>
+      </div>
+
       <section class="scores">
         <div class="scores-container">
           <div class="scores-header">
