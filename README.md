@@ -1,10 +1,5 @@
 <div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Leaderboard</b></h3>
-
+  <h1><b>Leaderboard</b></h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -22,7 +17,6 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -34,7 +28,11 @@
 
 # 📖 Leaderboard <a name="about-project"></a>
 
-**[Leaderboard]** website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+**Leaderboard** website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+
+# 👁‍🗨 Preview
+
+![image](https://user-images.githubusercontent.com/106581139/202997048-bf13d6dd-59c4-472e-9fae-4cc29a93cfdb.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -65,19 +63,15 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Connect to the Leaderboard API]**
-- **["Refresh" and "Submit" buttons]**
-- **[Async & await operations]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- **Connect to the Leaderboard API**
+- **"Refresh" and "Submit" buttons**
+- **Async & await operations**
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://sergskol.github.io/Leaderboard/dist)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -101,23 +95,19 @@ In order to run this project:
 
 Clone this repository to your desired folder:
 
-<!--
 ```sh
   cd my-folder
   git clone git@github.com:SergSkol/Leaderboard.git
 ```
---->
 
 ### Install
 
 Install all the dependencys required for the website, by using the command below
 
-<!--
 ```sh
   cd Leaderboard
   npm install
 ```
---->
 
 ### Usage
 
@@ -131,8 +121,6 @@ If you want to work with Chrome Developer Tools, simply run the HTML document in
 
 If you like to deploy the website to the github pages please follow the link here.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
@@ -143,17 +131,13 @@ If you like to deploy the website to the github pages please follow the link her
 - Twitter: [@sps676](https://twitter.com/sps676)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/sergiy-shkolnik-7801a53/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Advanced styles]**
-- [ ] **[Testing with Jest]**
-- [ ] **[Responsive design in mobile version]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [ ] **Advanced styles**
+- [ ] **Testing with Jest**
+- [ ] **Responsive design in mobile version**
 
 <!-- CONTRIBUTING -->
 
@@ -163,15 +147,11 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -180,8 +160,6 @@ Give a ⭐️ if you like this project!
 I would like to thank:
 - [Microverse](www.microverse.com)
 - [Leaderboard API service](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
