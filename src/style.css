@@ -5,6 +5,55 @@ body {
   background-color: #fff;
 }
 
+.hide {
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 20px 0;
+}
+
+.header-descr {
+  margin: 20px 0 0 0;
+  text-align: left;
+}
+
+.header-settings-open {
+  text-decoration: none;
+  color: #3e3e3e;
+  margin: 24px 0 0 0;
+  font-size: 20px;
+}
+
+.header-settings-open:hover {
+  color: blue;
+}
+
+.header-settings-input-label {
+  margin: 8px 0 0 8px;
+}
+
+.popup-settings {
+  text-decoration: none;
+  background-color: rgb(241, 241, 133);
+}
+
+.popup-settings-close {
+  text-decoration: none;
+  color: #3e3e3e;
+  margin: 8px 0 0 8px;
+  font-size: 20px;
+}
+
+.popup-settings-save {
+  text-decoration: none;
+  color: #3e3e3e;
+  margin: 8px 0 0 8px;
+  font-size: 20px;
+}
+
 .scores {
   display: flex;
   justify-content: space-between;
@@ -27,6 +76,10 @@ body {
   font-size: 18px;
   font-weight: bold;
   align-items: center;
+}
+
+#refresh-button:hover {
+  box-shadow: 1px 8px 16px rgb(54 179 127 / 48%);
 }
 
 .scores-list {
@@ -70,7 +123,18 @@ body {
   align-items: center;
 }
 
+#submit-button:hover {
+  box-shadow: 1px 8px 16px rgb(54 179 127 / 48%);
+}
+
 .submit-result {
   font-size: 8px;
   color: green;
+}
+
+/* Mobile version */
+@media screen and (max-width: 512px) {
+  .scores {
+    display: block;
+  }
 }
