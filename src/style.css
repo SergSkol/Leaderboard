@@ -5,10 +5,6 @@ body {
   background-color: #fff;
 }
 
-.add-form li {
-  list-style-type: none;
-}
-
 .scores {
   display: flex;
   justify-content: space-between;
@@ -17,6 +13,7 @@ body {
 .scores-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .scores-title {
@@ -25,8 +22,11 @@ body {
   padding-right: 32px;
 }
 
-#scores-refresh-button {
-  height: 36px;
+#refresh-button {
+  height: 24px;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
 }
 
 .scores-list {
@@ -45,10 +45,32 @@ body {
 }
 
 .scores-list-item:nth-child(even) {
-  background-color: #807c7c;
+  background-color: lightgray;
 }
 
 .form-title {
   height: 32px;
   margin: 0 auto;
+}
+
+.add-form ul {
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.add-form li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+#submit-button {
+  height: 24px;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.submit-result {
+  font-size: 8px;
+  color: green;
 }
