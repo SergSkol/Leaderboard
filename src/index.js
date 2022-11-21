@@ -26,8 +26,6 @@ const settingsOpenBtn = document.querySelector('.header-settings-open');
 settingsOpenBtn.addEventListener('click', () => {
   const popupSettings = document.querySelector('.popup-settings');
   popupSettings.classList.toggle('hide');
-  const newId = document.querySelector('#newId');
-  newId.value = gameId;
 });
 
 const settingsCloseBtn = document.querySelector('.popup-settings-close');
