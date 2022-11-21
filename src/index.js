@@ -1,4 +1,4 @@
-// import './style.css';
+import './style.css';
 import Storage from './modules/storage.js';
 import API from './modules/API.js';
 
